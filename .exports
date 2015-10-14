@@ -1,0 +1,41 @@
+# Make vim the default editor.
+export EDITOR='vim';
+
+# Enable persistent REPL history for `node`.
+NODE_REPL_HISTORY_FILE=~/.node_history;
+# Allow 32³ entries; the default is 1000.
+NODE_REPL_HISTORY_SIZE='32768';
+
+# Increase Bash history size. Allow 32³ entries; the default is 500.
+export HISTSIZE='32768';
+export HISTFILESIZE="${HISTSIZE}";
+# Omit duplicates and commands that begin with a space from history.
+export HISTCONTROL='ignoreboth';
+
+# Prefer CN Chinese and use UTF-8.
+export LANG='zh_CN.UTF-8';
+export LC_ALL='zh_CN.UTF-8';
+
+# Highlight section titles in manual pages.
+export LESS_TERMCAP_md="${yellow}";
+
+# Don’t clear the screen after quitting a manual page.
+export MANPAGER='less -X';
+
+# Always enable colored `grep` output.
+export GREP_OPTIONS='--color=auto';
+
+# Development working directory
+export DEVPATH=~/Development
+
+# Setting up Go development environment
+export GOROOT=$(brew --prefix go)/libexec
+export PATH=$PATH:$GOROOT/bin
+export GOPATH=$DEVPATH/Go;
+export GOBIN=$GOPATH/bin;
+
+# Location of the database storage area
+export DBPATH=$DEVPATH/DB;
+
+# NVM's working directory
+export NVM_DIR=~/.nvm

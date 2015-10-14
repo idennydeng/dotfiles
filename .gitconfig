@@ -1,0 +1,17 @@
+[user]
+    name = Denny
+    email = happyaxu@126.com
+
+[alias]
+    lg = log
+    df = diff
+    st = status
+    br = branch
+    ci = commit
+    co = checkout
+
+[color]
+    ui = auto
+
+[push]
+	default = simple
