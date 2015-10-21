@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 cd "$(dirname "${BASH_SOURCE}")";
 
@@ -6,16 +6,17 @@ git pull origin master;
 
 function doIt() {
     rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-        --exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
-    source ~/.bash_profile;
+        --exclude "README.md" --exclude "brew.sh" -avh --no-perms . ~;
+    source ~/.zshrc;
 }
 
-if [ "$1" == "--force" -o "$1" == "-f" ]; then
+if [ "$1" = "--force" -o "$1" = "-f" ]; then
     doIt;
 else
-    read -p "This may overwrite existing files in your home directory. Are you sure? (y/n) " -n 1;
-    echo "";
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
+    echo "This may overwrite existing files in your home directory. \nAre you sure? (y/n) : ";
+
+    read -rs -k 1 ans;
+    if [[ "${ans}" == "y" || "${ans}" == "Y" ]]; then
         doIt;
     fi;
 fi;

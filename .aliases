@@ -1,17 +1,7 @@
-# Easier navigation: .., ..., ...., ....., ~ and -
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
-
 # Shortcuts
 alias de="cd ~/Development/"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias h="history"
-alias g="git"
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update'
@@ -19,6 +9,3 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew c
 # IP addresses
 alias localip="ipconfig getifaddr en0"
 alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
-
-# Start DB
-alias startDB="pg_ctl -D $DBPATH start"
