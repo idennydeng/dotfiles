@@ -41,5 +41,13 @@ brew cask install squirrel
 brew cask install macdown
 brew cask install iterm2
 
+# Install Quick Look plugins
+brew cask install quicklook-json
+brew cask install quicklook-csv
+brew cask install qlimagesize
+brew cask install qlcolorcode
+brew cask install qlmarkdown
+brew cask install qlstephen
+
 # Remove outdated versions from the cellar.
 brew cleanup
