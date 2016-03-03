@@ -41,6 +41,7 @@ brew cask install mplayerx
 brew cask install squirrel
 brew cask install macdown
 brew cask install iterm2
+brew cask install flux
 
 # Install Quick Look plugins
 brew cask install quicklook-json
