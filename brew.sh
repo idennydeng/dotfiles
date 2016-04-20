@@ -36,9 +36,9 @@ brew cask install google-chrome
 brew cask install sublime-text
 brew cask install rescuetime
 brew cask install cheatsheet
+brew cask install baiduinput
 brew cask install wireshark
 brew cask install mplayerx
-brew cask install squirrel
 brew cask install macdown
 brew cask install iterm2
 brew cask install flux
