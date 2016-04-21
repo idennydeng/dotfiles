@@ -38,6 +38,7 @@ brew cask install rescuetime
 brew cask install cheatsheet
 brew cask install baiduinput
 brew cask install wireshark
+brew cask install bartender
 brew cask install mplayerx
 brew cask install macdown
 brew cask install iterm2
