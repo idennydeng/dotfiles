@@ -27,6 +27,7 @@ brew install wget
 # Install the development environment
 brew install go
 brew install nvm
+brew install rbenv
 brew install postgresql
 brew install nginx
 
