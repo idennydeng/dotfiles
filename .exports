@@ -11,7 +11,7 @@ export DEVPATH=~/Development
 # Setting up Go development environment
 export GOROOT=$(brew --prefix go)/libexec
 export PATH=$PATH:$GOROOT/bin
-export GOPATH=$DEVPATH/Go;
+export GOPATH=$DEVPATH/Golang;
 export GOBIN=$GOPATH/bin;
 
 # NVM's working directory
