@@ -32,7 +32,7 @@ brew install postgresql
 brew install nginx
 
 # Install native apps
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 brew cask install google-chrome
 brew cask install rescuetime
 brew cask install cheatsheet
