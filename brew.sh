@@ -40,6 +40,7 @@ brew cask install cleanmymac
 brew cask install wireshark
 brew cask install bartender
 brew cask install mplayerx
+brew cask install lantern
 brew cask install inboard
 brew cask install macdown
 brew cask install iterm2
