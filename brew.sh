@@ -34,10 +34,8 @@ brew install nginx
 # Install native apps
 brew install caskroom/cask/brew-cask
 brew cask install google-chrome
-brew cask install sublime-text
 brew cask install rescuetime
 brew cask install cheatsheet
-brew cask install baiduinput
 brew cask install cleanmymac
 brew cask install wireshark
 brew cask install bartender
