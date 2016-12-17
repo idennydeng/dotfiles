@@ -34,6 +34,7 @@ brew install nginx
 # Install native apps
 brew tap caskroom/cask
 brew cask install google-chrome
+brew cask install sublime-text
 brew cask install rescuetime
 brew cask install cheatsheet
 brew cask install cleanmymac
@@ -46,6 +47,9 @@ brew cask install macdown
 brew cask install iterm2
 brew cask install atom
 brew cask install flux
+brew cask install java
+
+
 
 # Install Quick Look plugins
 brew cask install quicklook-json
