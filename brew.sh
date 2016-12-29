@@ -34,6 +34,7 @@ brew install nginx
 # Install native apps
 brew tap caskroom/cask
 brew cask install google-chrome
+brew cask install shadowsocksx
 brew cask install sublime-text
 brew cask install rescuetime
 brew cask install cheatsheet
