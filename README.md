@@ -25,7 +25,7 @@ chsh -s /bin/zsh
 
 ### 2. Using Git and the bootstrap script
 ```
-git clone https://github.com/happyaxu/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && source bootstrap.sh
+git clone https://github.com/happyaxu/dotfiles.git ~/.dotfiles && cd ~/.dotfiles &&  ./bootstrap.sh
 ```
 
 ### 3. Install Homebrew formulae
