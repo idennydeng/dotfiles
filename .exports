@@ -21,3 +21,6 @@ export NVM_DIR=~/.nvm
 NODE_REPL_HISTORY_FILE=~/.node_history;
 # Allow 32³ entries; the default is 1000.
 NODE_REPL_HISTORY_SIZE='32768';
+
+# Change homebrew bottles
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles

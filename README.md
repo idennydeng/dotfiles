@@ -28,7 +28,12 @@ chsh -s /bin/zsh
 git clone https://github.com/happyaxu/dotfiles.git ~/.dotfiles && cd ~/.dotfiles &&  ./bootstrap.sh
 ```
 
-### 3. Install Homebrew formulae
+### 3. Sensible macOS defaults
+```
+cd ~/.dotfiles && ./.macos
+```
+
+### 4. Install Homebrew formulae
 ```
 cd ~/.dotfiles && ./brew.sh
 ```
