@@ -49,8 +49,6 @@ brew cask install atom
 brew cask install flux
 brew cask install java
 
-
-
 # Install Quick Look plugins
 brew cask install quicklook-json
 brew cask install quicklook-csv

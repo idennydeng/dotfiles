@@ -61,12 +61,17 @@ export PATH=/usr/local/bin:$PATH
 # Add `~/bin` to the `$PATH`
 export PATH=$HOME/bin:$PATH
 
+source $ZSH/oh-my-zsh.sh
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file (.path .exports .aliases .extra); do
+for file (.path .exports .aliases .functions .extra); do
     [ -r ~/$file ] && [ -f ~/$file ] && source ~/$file;
 done;
 unset file;
 
-source $ZSH/oh-my-zsh.sh
+# reading .nvmrc on login and directory change
+autoload -U add-zsh-hook
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
