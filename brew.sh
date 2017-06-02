@@ -44,6 +44,7 @@ brew cask install bartender
 brew cask install inboard
 brew cask install macdown
 brew cask install iterm2
+brew cask install iina
 brew cask install atom
 brew cask install flux
 brew cask install java
