@@ -28,8 +28,8 @@ brew install wget
 brew install go
 brew install nvm
 brew install rbenv
-brew install postgresql
 brew install nginx
+brew install postgresql
 
 # Install native apps
 brew tap caskroom/cask
@@ -43,6 +43,7 @@ brew cask install wireshark
 brew cask install bartender
 brew cask install inboard
 brew cask install macdown
+brew cask install vagrant
 brew cask install iterm2
 brew cask install iina
 brew cask install atom
