@@ -39,6 +39,7 @@ brew cask install sublime-text
 brew cask install rescuetime
 brew cask install cheatsheet
 brew cask install cleanmymac
+brew cask install virtualbox
 brew cask install wireshark
 brew cask install bartender
 brew cask install inboard
