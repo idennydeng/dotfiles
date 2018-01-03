@@ -22,7 +22,6 @@ brew install ssh-copy-id
 brew install autojump
 brew install tree
 brew install cloc
-brew install wget
 
 # Install the development environment
 brew install go
