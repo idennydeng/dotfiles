@@ -20,6 +20,7 @@ brew install wget --with-iri
 # Install other useful binaries.
 brew install ssh-copy-id
 brew install autojump
+brew install cheat
 brew install tree
 brew install cloc
 
