@@ -23,6 +23,7 @@ brew install autojump
 brew install cheat
 brew install tree
 brew install cloc
+brew install jq
 
 # Install the development environment
 brew install go
