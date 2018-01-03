@@ -42,7 +42,6 @@ brew cask install virtualbox
 brew cask install wireshark
 brew cask install bartender
 brew cask install inboard
-brew cask install macdown
 brew cask install vagrant
 brew cask install iterm2
 brew cask install iina
