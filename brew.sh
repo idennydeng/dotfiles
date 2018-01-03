@@ -46,7 +46,6 @@ brew cask install vagrant
 brew cask install iterm2
 brew cask install iina
 brew cask install atom
-brew cask install flux
 brew cask install java
 
 # Install Quick Look plugins
