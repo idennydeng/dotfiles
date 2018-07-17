@@ -34,6 +34,7 @@ brew install postgresql
 
 # Install native apps
 brew tap caskroom/cask
+brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install shadowsocksx
 brew cask install sublime-text
