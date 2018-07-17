@@ -70,8 +70,3 @@ for file (.path .exports .aliases .functions .extra); do
     [ -r ~/$file ] && [ -f ~/$file ] && source ~/$file;
 done;
 unset file;
-
-# reading .nvmrc on login and directory change
-autoload -U add-zsh-hook
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
