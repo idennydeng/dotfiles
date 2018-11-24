@@ -37,7 +37,6 @@ brew tap caskroom/cask
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install shadowsocksx
-brew cask install rescuetime
 brew cask install cheatsheet
 brew cask install cleanmymac
 brew cask install virtualbox
