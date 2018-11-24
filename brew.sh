@@ -46,7 +46,6 @@ brew cask install inboard
 brew cask install vagrant
 brew cask install iterm2
 brew cask install iina
-brew cask install java
 
 # Install Quick Look plugins
 brew cask install quicklook-json
