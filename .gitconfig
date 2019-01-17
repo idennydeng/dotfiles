@@ -1,6 +1,6 @@
 [user]
     name = Denny
-    email = i@dennydeng.com
+    email = idennydeng@gmail.com
 
 [alias]
     lg = log
@@ -9,9 +9,10 @@
     br = branch
     ci = commit
     co = checkout
+    sm = submodule
 
 [color]
     ui = auto
 
 [push]
-	default = simple
+    default = simple
