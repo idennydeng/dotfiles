@@ -27,10 +27,13 @@ brew install jq
 
 # Install the development environment
 brew install go
-brew install tmux
 brew install rbenv
 brew install nginx
 brew install postgresql
+
+# Install tmux
+brew install tmux
+brew install reattach-to-user-namespace
 
 # Install native apps
 brew tap caskroom/cask
