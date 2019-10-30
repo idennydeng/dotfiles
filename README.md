@@ -7,12 +7,7 @@ This is my own personal dotfile repo for setting up a new machine.
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### 2. Install [Homebrew Cask](http://caskroom.io/)
-```
-brew tap caskroom/cask
-```
-
-### 3. Install [Oh My Zsh](http://ohmyz.sh/)
+### 2. Install [Oh My Zsh](http://ohmyz.sh/)
 ```
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
