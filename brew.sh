@@ -8,8 +8,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# Install `wget` with IRI support.
-brew install wget --with-iri
+# Install `wget`
+brew install wget
 
 # Install other useful binaries.
 brew install ssh-copy-id
