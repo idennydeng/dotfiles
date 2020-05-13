@@ -40,7 +40,6 @@ brew cask install wireshark
 brew cask install bartender
 brew cask install inboard
 brew cask install vagrant
-brew cask install iterm2
 brew cask install iina
 
 # Remove outdated versions from the cellar.
