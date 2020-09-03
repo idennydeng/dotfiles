@@ -6,7 +6,7 @@ export LC_ALL='zh_CN.UTF-8';
 export EDITOR='vim';
 
 # Development working directory
-export DEVPATH=~/Development
+export DEVPATH=~/Workspaces
 
 # Setting up Go development environment
 export GOROOT=$(brew --prefix go)/libexec
