@@ -4,7 +4,7 @@ This is my own personal dotfile repo for setting up a new machine.
 ## Preparations
 ### 1. Install [Homebrew](http://brew.sh/)
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### 2. Install [Oh My Zsh](http://ohmyz.sh/)
