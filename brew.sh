@@ -30,16 +30,16 @@ brew install reattach-to-user-namespace
 
 # Install native apps
 brew tap homebrew/case
-brew cask install visual-studio-code
-brew cask install google-chrome
-brew cask install shadowsocksx
-brew cask install cheatsheet
-brew cask install virtualbox
-brew cask install wireshark
-brew cask install bartender
-brew cask install inboard
-brew cask install vagrant
-brew cask install iina
+brew install visual-studio-code
+brew install google-chrome
+brew install shadowsocksx
+brew install cheatsheet
+brew install virtualbox
+brew install wireshark
+brew install bartender
+brew install inboard
+brew install vagrant
+brew install iina
 
 # Remove outdated versions from the cellar.
 brew cleanup
