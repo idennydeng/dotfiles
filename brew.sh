@@ -29,7 +29,7 @@ brew install tmux
 brew install reattach-to-user-namespace
 
 # Install native apps
-brew tap caskroom/cask
+brew tap homebrew/case
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install shadowsocksx
