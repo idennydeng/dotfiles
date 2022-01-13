@@ -2,16 +2,22 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin master;
+git pull origin master && git submodule init && git submodule update;
 
 function doIt() {
+    ln -s -f .dotfiles/tmux/.tmux.conf ~/.tmux.conf;
+    cp .dotfiles/tmux/.tmux.conf ~/.tmux.conf.local;
+
     rsync --exclude ".git/" \
+        --exclude "tmux" \
+        --exclude "oh-my-zsh" \
+        --exclude "solarized" \
         --exclude ".macos" \
-        --exclude ".DS_Store" \
+        --exclude ".gitignore" \
+        --exclude ".gitmodules" \
         --exclude "bootstrap.sh" \
         --exclude "README.md" \
         --exclude "brew.sh" \
-        --exclude "solarized" \
         -avh --no-perms . ~;
     source ~/.zshrc;
 }
