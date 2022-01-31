@@ -28,8 +28,3 @@ NODE_REPL_HISTORY_SIZE='32768';
 export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
 export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
 
-# Setting up Android SDK environment
-export JAVA_HOME=$(/usr/libexec/java_home)
-export ANDROID_HOME=~/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-
