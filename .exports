@@ -23,8 +23,3 @@ export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
 NODE_REPL_HISTORY_FILE=~/.node_history;
 # Allow 32³ entries; the default is 1000.
 NODE_REPL_HISTORY_SIZE='32768';
-
-# Change homebrew bottles
-export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
-export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
-
