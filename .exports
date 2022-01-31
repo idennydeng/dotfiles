@@ -25,8 +25,8 @@ NODE_REPL_HISTORY_FILE=~/.node_history;
 NODE_REPL_HISTORY_SIZE='32768';
 
 # Change homebrew bottles
-export HOMEBREW_NO_AUTO_UPDATE=true
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
 
 # Setting up Android SDK environment
 export JAVA_HOME=$(/usr/libexec/java_home)
