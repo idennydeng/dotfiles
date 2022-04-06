@@ -1,9 +1,9 @@
 [submodule "solarized"]
 	path = solarized
-	url = git@github.com:altercation/solarized.git
+	url = https://github.com/altercation/solarized.git
 [submodule "tmux"]
 	path = tmux
-	url = git@github.com:gpakosz/.tmux.git
+	url = https://github.com/gpakosz/.tmux.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
-	url = git://github.com/robbyrussell/oh-my-zsh.git
+	url = https://github.com/robbyrussell/oh-my-zsh.git
