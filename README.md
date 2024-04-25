@@ -15,7 +15,7 @@ This is my own personal dotfile repo for setting up a new machine.
 ### 1. Change shell to ZSH
 
 ```
-chsh -s /bin/zsh
+sudo chsh -s /bin/zsh
 ```
 
 ### 2. Using Git and the bootstrap script
