@@ -34,7 +34,6 @@ brew install google-chrome
 brew install cheatsheet
 brew install wireshark
 brew install bartender
-brew install inboard
 brew install iina
 
 # Remove outdated versions from the cellar.
