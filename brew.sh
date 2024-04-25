@@ -28,7 +28,6 @@ brew install postgresql
 brew install tmux
 
 # Install native apps
-brew tap homebrew/case
 brew install visual-studio-code
 brew install google-chrome
 brew install cheatsheet
