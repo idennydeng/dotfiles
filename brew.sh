@@ -26,7 +26,6 @@ brew install postgresql
 
 # Install tmux
 brew install tmux
-brew install reattach-to-user-namespace
 
 # Install native apps
 brew tap homebrew/case
