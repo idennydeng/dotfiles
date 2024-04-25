@@ -17,7 +17,7 @@ export GOBIN=$GOPATH/bin;
 # NVM's working directory
 export NVM_DIR=~/.nvm
 # Use taobao mirror
-export NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node
+export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node
 
 # Enable persistent REPL history for `node`.
 NODE_REPL_HISTORY_FILE=~/.node_history;
