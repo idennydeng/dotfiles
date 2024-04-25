@@ -35,7 +35,6 @@ brew install cheatsheet
 brew install wireshark
 brew install bartender
 brew install inboard
-brew install vagrant
 brew install iina
 
 # Remove outdated versions from the cellar.
