@@ -31,7 +31,6 @@ brew install tmux
 brew tap homebrew/case
 brew install visual-studio-code
 brew install google-chrome
-brew install shadowsocksx
 brew install cheatsheet
 brew install virtualbox
 brew install wireshark
