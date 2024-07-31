@@ -51,7 +51,7 @@ ZSH_CUSTOM=$HOME/.custom
 # Custom plugins may be added to ~/.dotfiles/oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(macos brew autojump tmux postgres redis-cli git nvm node npm golang vscode docker)
+plugins=(macos brew autojump tmux postgres redis-cli git nvm node npm golang vscode docker mix)
 
 # User configuration
 
