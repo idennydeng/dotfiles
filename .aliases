@@ -1,4 +1,5 @@
 # Shortcuts
+alias ls='ls --color=auto'
 alias de="cd ~/Development/"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"

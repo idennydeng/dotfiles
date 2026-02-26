@@ -8,6 +8,29 @@ export EDITOR='vim';
 # Development working directory
 export DEVPATH=~/Workspaces
 
+# Setting up Homebrew mirror for aliyun
+export HOMEBREW_INSTALL_FROM_API=1
+export HOMEBREW_API_DOMAIN="https://mirrors.aliyun.com/homebrew-bottles/api"
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.aliyun.com/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.aliyun.com/homebrew/homebrew-core.git"
+export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.aliyun.com/homebrew/homebrew-bottles"
+
+# Setting up Gnu tools
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/moreutils/libexec/bin:$PATH"
+export PATH="/opt/homebrew/opt/gawk/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-indent/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-which/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/diffutils/bin:$PATH"
+export PATH="/opt/homebrew/opt/binutils/bin:$PATH"
+export PATH="/opt/homebrew/opt/gnutls/bin:$PATH"
+export PATH="/opt/homebrew/opt/unzip/bin:$PATH"
+export PATH="/opt/homebrew/opt/ed/bin:$PATH"
+
 # Setting up Go development environment
 export GOROOT=$(brew --prefix go)/libexec
 export PATH=$PATH:$GOROOT/bin
@@ -15,12 +38,17 @@ export GOPATH=$DEVPATH/golang;
 export GOBIN=$GOPATH/bin;
 export GOPROXY=https://goproxy.cn
 
+# Add uv to the PATH
+export PATH=$PATH:~/.local/bin
+
 # NVM's working directory
 export NVM_DIR=~/.nvm
+
 # Use taobao mirror
 export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node
 
 # Enable persistent REPL history for `node`.
 NODE_REPL_HISTORY_FILE=~/.node_history;
+
 # Allow 32³ entries; the default is 1000.
 NODE_REPL_HISTORY_SIZE='32768';
