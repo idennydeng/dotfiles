@@ -40,8 +40,6 @@ brew install jq
 
 # Install the development environment
 brew install go
-brew install nginx
-brew install postgresql
 
 # Install tmux
 brew install tmux
@@ -51,8 +49,6 @@ brew install visual-studio-code
 brew install google-chrome
 brew install cheatsheet
 brew install wireshark
-brew install bartender
-brew install iina
 
 # Remove outdated versions from the cellar.
 brew cleanup
