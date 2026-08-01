@@ -45,10 +45,13 @@ brew install go
 brew install tmux
 
 # Install native apps
-brew install visual-studio-code
-brew install google-chrome
-brew install cheatsheet
-brew install wireshark
+brew install --cask visual-studio-code
+brew install --cask google-chrome
+brew install --cask cheatsheet
+brew install --cask wireshark
+brew install --cask obsidian
+brew install --cask raycast
+brew install --cask thaw
 
 # Remove outdated versions from the cellar.
 brew cleanup
